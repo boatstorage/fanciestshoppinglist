@@ -1,0 +1,84 @@
+global dictionary
+
+users' lists = {
+"Target": [socks, soap, detergent, sponges]
+Safeway - butter, cake, cookies, bread
+PeterGrocery - apples, oranges, bananas, milk
+JaneGrocery - oreos, brownies, soda]}
+
+def alphabetize_list()
+    somehow sort list in a value by alphabet
+
+def main_menu()
+    raw_input user picks a number
+    output print you picked #, go to that function
+
+def display_all_lists()
+    display all keys
+
+def display_specific_list()
+    display_all_lists
+    ask user to choose one
+    raw_input = raw_input.lower()
+    return user chosen list
+    alphabetize
+
+def add_new_list()
+    ask for name of new list
+     raw_input = raw_input.lower()
+        if key name doesn't exist in dictionary
+            add as new key to global dictionary
+                empty value
+            want to add item? if yes
+                go to add item
+                if else
+                main menu
+        if does exist
+            you cannot add a duplicate list
+            while loop back to ask for name of new list
+
+def add_item()
+    display lists, ask user to choose one
+    raw_input = raw_input.lower()
+    ask for item name
+        if item doesn't exist in list value
+            add item to chosen list
+            add item to end of list
+            alphabetize
+            display new list
+            add another? input(y/n)
+            if y, loop to def add_item
+            else:
+            break
+        if item exists
+            you cannot add duplicate item
+
+def remove_item()
+    display keys and values
+    ask to choose list
+    raw_input = raw_input.lower()
+    ask to choose item
+    remove item
+    alphabetize
+    display new list
+    remove another? input(y/n)
+            if y, loop to def remove_item
+            else:
+            break
+
+def remove_list()
+    display keys and values
+    ask user 
+    raw_input = raw_input.lower()
+    remove key and values
+
+def exit_choice()
+    do you want to exit this option
+        if yes
+            break
+        else
+            stay in option
+
+main()
+1 main_menu function
+2 dipslay_all_lists function
